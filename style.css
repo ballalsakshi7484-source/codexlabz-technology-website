@@ -1,0 +1,163 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: pink;
+    padding: 20px;
+    
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+    padding: 5px;
+   
+}
+nav a{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 300px;
+    margin-inline-start: 40px;
+    text-decoration: none;
+    color:brown;
+    font-family: 'Times New Roman', Times, serif;
+   
+   
+}
+
+
+.home_div{
+    margin-top: 64px;
+    height: 300px;
+    text-align: left;
+    display: flex;
+    padding: 20px;
+    padding-left: 80px;
+    padding-bottom: 80px;
+}
+
+.about_div{
+    display: flex;
+    padding: 40px;
+    padding-left: 60px;
+    right: 100px;
+    background-color: aqua;
+    text-align: justify;
+}
+.about_div h4
+{
+    color: brown;
+    margin-top: 10px;
+    line-height: 1.3;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about_div h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.about_div p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+.service_div{
+    display: flex;
+    padding: 30px;
+    text-align: center;
+    height: 500px;
+    box-shadow: 2px 3px 1px 3px silver ;
+
+}
+.service_div h1{
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.service_div div{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    width: 33%;
+    height: 450px;
+    box-shadow: 2px 8px 7px 6px whitesmoke
+   
+}
+.service_div p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+.heding{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sakshi:hover{
+     box-shadow: 3px 5px 2px 5px gainsboro ;
+    background-color: azure;
+    
+}
+.sa:hover{
+    width: 75%;
+}
+
+.flexbox{
+     height: 250px;      
+    display: flex;    
+    flex-direction: row;
+    background-color:blueviolet;
+    text-align: center;
+        }
+ .flexbox >div{
+     padding: 30px;
+     margin: 100px;
+     margin-left: 170px;
+     height: 50px;
+     width: 500px;
+     background-color:white;
+     margin-inline-start: 70px;
+     margin-top: 70px;
+     font-size: larger;
+     }
+
+   .sect_pricing{
+    display: flex;
+    padding: 30px;
+    text-align: center;
+    height: 900px;
+    box-shadow: 2px 3px 1px 3px silver ;
+   }
+
+
+
+.sect_pricing div{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    width: 33%;
+    height: 650px;
+    box-shadow: 2px 8px 7px 6px whitesmoke
+   
+}
+.sect_pricing p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    margin: 20px;
+    text-align: center;
+}
+.sect_pricing a{
+    padding: 10px;
+    color:purple;
+    border: 2px solid purple;
+    border-radius: 40px;
+    height: 80px;
+    width: 70px;
+    margin: 70px;
+}
+
